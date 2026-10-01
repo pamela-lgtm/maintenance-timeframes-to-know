@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Breaks, and When — A Florida Owner's Maintenance Guide | Verandah Properties</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#008C82;--teal-deep:#00625B;--gold:#C9A227;--charcoal:#1A1A1A;--body:#1F1F1F;--muted:#5A5651;--strong:#0F0F0F;--line:#E2DED7;--paper:#FBFAF7;--panel:#F3F1EC;--red:#B5543C;--rose:#D4886F;--green:#4E8C6A;--slate:#6B7C8C}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--body);font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:17px;line-height:1.72}
+.wrap{max-width:780px;margin:0 auto;padding:0 26px}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;color:var(--charcoal)}
+h1{font-size:2.7rem;line-height:1.1;margin:0 0 .5rem}
+h2{font-size:1.85rem;line-height:1.22;margin:0 0 .9rem}
+h3{font-size:1.2rem;margin:1.4rem 0 .5rem}
+p{margin:0 0 1.15rem}
+b,strong{font-weight:600;color:var(--strong)}
+ul{margin:0 0 1.15rem;padding-left:1.2rem}
+li{margin-bottom:.55rem}
+.mast{background:var(--charcoal);color:#F5F3EE;padding:32px 0 38px}
+.brandline{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap}
+.mark{width:33px;height:33px;border-radius:50%;background:var(--teal);color:#fff;font-family:'Cormorant Garamond',serif;font-size:21px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;transform:translateY(5px)}
+.brandname{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:#F5F3EE}
+.mast .tag{color:#A9A49C;font-size:.83rem;margin-left:auto}
+.kicker{color:var(--gold);font-size:.92rem;margin:26px 0 4px}
+.mast h1{color:#FBFAF7}
+.mast h1 em{font-style:italic;font-weight:400;color:var(--gold)}
+.mast .sub{color:#B8B2A8;margin:0;font-size:1.08rem;max-width:62ch}
+.bottom{background:var(--teal);color:#fff;padding:30px 0}
+.bottom h2{color:#fff;font-size:1.5rem;margin-bottom:.4rem}
+.bottom p{color:#DDEFEC;margin-bottom:.8rem}
+.bottom b{color:#fff}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,.28);border-radius:10px;overflow:hidden;margin:16px 0 14px}
+.vs div{background:var(--teal);padding:18px 20px}
+.vs div:last-child{background:var(--teal-deep)}
+.vs .k{font-size:.8rem;color:#CDE8E5;text-transform:uppercase;letter-spacing:.05em}
+.vs .v{font-family:'Cormorant Garamond',serif;font-size:2.4rem;line-height:1.1;color:#fff}
+.vs .n{font-size:.86rem;color:#CDE8E5}
+section{padding:40px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:none}
+h2 em{font-style:italic;font-weight:400;color:var(--teal-deep)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 22px}
+.st{background:#fff;padding:17px}
+.st .v{font-family:'Cormorant Garamond',serif;font-size:1.9rem;line-height:1.05;color:var(--teal-deep)}
+.st .v.warn{color:var(--red)}
+.st .k{font-size:.84rem;color:var(--muted);margin-top:5px;line-height:1.45}
+.chart{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px 26px;margin:0 0 22px}
+.chart h3{margin:0 0 4px}
+.chart .cap{font-size:.9rem;color:var(--muted);margin:0 0 18px}
+.bar{display:grid;grid-template-columns:160px 1fr;gap:13px;align-items:center;margin-bottom:11px;font-size:.93rem}
+.track{background:var(--panel);border-radius:4px;height:28px;overflow:hidden}
+.fill{height:28px;border-radius:4px;display:flex;align-items:center;justify-content:flex-end;padding-right:11px;color:#fff;font-weight:600;font-size:.88rem;white-space:nowrap}
+.fill.gr{background:var(--green)}.fill.g{background:var(--gold)}.fill.r{background:var(--red)}.fill.rs{background:var(--rose)}.fill.s{background:var(--slate)}.fill.t{background:var(--teal)}
+.src{font-size:.85rem;color:var(--muted);margin:14px 0 0;padding-top:13px;border-top:1px solid var(--line)}
+.quote{border-left:4px solid var(--gold);background:#fff;padding:21px 25px;border-radius:0 8px 8px 0;margin:0 0 24px}
+.quote p{font-family:'Cormorant Garamond',serif;font-size:1.24rem;line-height:1.5;margin-bottom:0}
+.quote p+p{margin-top:.7rem}
+.investor{background:var(--charcoal);color:#F5F3EE;border-radius:11px;padding:30px 32px;margin:0 0 24px}
+.investor h2{color:#FBFAF7;margin-bottom:.6rem}
+.investor p{color:#E3DFD8}
+.investor b{color:#fff}
+.investor .big{font-family:'Cormorant Garamond',serif;font-size:2.6rem;line-height:1.05;color:var(--gold);margin:4px 0 6px}
+.invgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.15);border-radius:9px;overflow:hidden;margin:18px 0}
+.invgrid div{background:#232323;padding:16px}
+.invgrid .v{font-family:'Cormorant Garamond',serif;font-size:1.9rem;color:var(--gold);line-height:1.1}
+.invgrid .k{font-size:.82rem;color:#B8B2A8;margin-top:4px;line-height:1.4}
+details{border:1px solid var(--line);border-radius:9px;background:#fff;margin:0 0 12px}
+summary{cursor:pointer;padding:15px 19px;font-weight:600;color:var(--teal-deep);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.45rem;color:var(--gold);line-height:1;flex:0 0 auto}
+details[open] summary::after{content:"\2212"}
+summary:hover{background:var(--panel)}
+.dbody{padding:2px 19px 16px}
+.dbody>*:last-child{margin-bottom:0}
+.tscroll{overflow-x:auto;margin:0 0 14px}
+table{border-collapse:collapse;width:100%;font-size:.92rem;background:#fff;min-width:500px}
+th{background:var(--panel);color:var(--strong);font-weight:600;text-align:left;padding:10px 12px;border-bottom:2px solid var(--line)}
+td{padding:10px 12px;border-bottom:1px solid var(--line)}
+td.num,th.num{text-align:right;white-space:nowrap}
+tr.tot td{font-weight:600;background:#F3F1EC;border-top:2px solid var(--charcoal)}
+footer{background:var(--charcoal);color:#B8B2A8;padding:34px 0;font-size:.9rem}
+footer .sig{font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--gold);margin-bottom:9px}
+footer a{color:#8FD2CB}
+@media(max-width:700px){body{font-size:16.5px}h1{font-size:2rem}h2{font-size:1.5rem}.vs,.invgrid{grid-template-columns:1fr}.bar{grid-template-columns:108px 1fr;font-size:.85rem}.mast .tag{margin-left:0;width:100%}.investor{padding:24px 22px}}
+@media print{body{background:#fff}section{page-break-inside:avoid}summary::after{content:""}}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="brandline">
+      <span class="mark">V</span>
+      <span class="brandname">Verandah Properties, LLC</span>
+      <span class="tag">For Owners</span>
+    </div>
+    <p class="kicker">Owner Education · Maintenance</p>
+    <h1>What breaks,<br><em>and when.</em></h1>
+    <p class="sub">A Florida rental runs harder than a Florida home. Here is what wears out, roughly when, what it costs, and which small things prevent the large ones. No sales pitch — just the list we wish every owner had on day one.</p>
+  </div>
+</header>
+
+<div class="bottom">
+  <div class="wrap">
+    <h2>The short version</h2>
+    <p>Almost every expensive repair we handle started as an inexpensive one that waited. The three that cost owners the most are a <b>clogged air conditioning drain line</b>, a <b>water heater past its life</b>, and a <b>roof that aged past what insurers will cover</b>. All three are predictable, and all three are cheap to prevent.</p>
+  </div>
+</div>
+
+<div class="wrap">
+
+<section>
+  <h2>Why Florida is different</h2>
+  <p>Equipment lifespans published nationally do not transfer here, and owners who move from another state are often caught out by it.</p>
+  <ul>
+    <li><b>Air conditioning runs eight to ten months a year</b> rather than three or four. A system rated for fifteen years in Ohio commonly gives ten to twelve here.</li>
+    <li><b>Humidity attacks everything.</b> Condensate, mold, mildew, wood swelling, and corrosion on outdoor components are all accelerated.</li>
+    <li><b>Hard water is common</b> across Central Florida, which shortens water heater life and leaves scale in fixtures and appliances.</li>
+    <li><b>Sun exposure</b> degrades exterior paint, caulk, roof shingles and screen enclosures faster than almost anywhere else in the country.</li>
+  </ul>
+  <p>None of this is alarming. It simply means the replacement clock runs faster, and planning around the national averages will leave you surprised.</p>
+</section>
+
+<section>
+  <h2>Typical service life <em>in Central Florida</em></h2>
+  <p>These are general ranges rather than guarantees, and a well-maintained system frequently outlasts them. Use them for budgeting, not for prediction.</p>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th>Component</th><th class="num">Typical life</th><th>What usually ends it</th></tr></thead>
+    <tbody>
+      <tr><td><b>Air conditioning system</b></td><td class="num">10–15 years</td><td>Compressor failure, refrigerant leaks, coil corrosion</td></tr>
+      <tr><td><b>Water heater</b> (tank)</td><td class="num">8–12 years</td><td>Tank corrosion, sediment buildup, element failure</td></tr>
+      <tr><td><b>Roof</b> (architectural shingle)</td><td class="num">15–25 years</td><td>Granule loss, sun damage — and insurance limits well before failure</td></tr>
+      <tr><td><b>Exterior paint</b></td><td class="num">5–8 years</td><td>Sun fade, chalking, caulk separation</td></tr>
+      <tr><td><b>Dishwasher</b></td><td class="num">8–10 years</td><td>Pump and motor, door seals</td></tr>
+      <tr><td><b>Refrigerator</b></td><td class="num">10–15 years</td><td>Compressor, sealed system</td></tr>
+      <tr><td><b>Range / oven</b></td><td class="num">12–15 years</td><td>Elements, control boards</td></tr>
+      <tr><td><b>Washer / dryer</b></td><td class="num">8–12 years</td><td>Bearings, pumps, control boards</td></tr>
+      <tr><td><b>Garbage disposal</b></td><td class="num">8–12 years</td><td>Motor, leaks at the seam</td></tr>
+      <tr><td><b>Interior paint</b> (rental turn)</td><td class="num">3–5 years</td><td>Normal wear between residents</td></tr>
+      <tr><td><b>Carpet</b></td><td class="num">5–7 years</td><td>Traffic wear; hard flooring lasts far longer</td></tr>
+      <tr><td><b>Screen enclosure</b></td><td class="num">8–12 years</td><td>Sun degradation of screening, frame corrosion</td></tr>
+      <tr><td><b>Irrigation controller</b></td><td class="num">8–12 years</td><td>Electronics, solenoid valves</td></tr>
+      <tr><td><b>Pool pump</b></td><td class="num">8–12 years</td><td>Motor bearings, seals</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="quote">
+    <p>If you know the age of your air conditioner, your water heater and your roof, you know most of what is coming. Those three are the large numbers. Everything else is manageable.</p>
+  </div>
+</section>
+
+<section>
+  <h2>The roof, and the thing <em>most owners miss</em></h2>
+  <p>A shingle roof may have twenty years of physical life. That is not the number that matters in Florida.</p>
+  <p>Insurance carriers here have tightened sharply on roof age. Depending on the carrier and the roof type, coverage can become difficult, more expensive, or limited to actual cash value well before the roof is failing. Some carriers decline older roofs outright.</p>
+
+  <div class="box">
+    <h3>Why this matters even if you are not selling</h3>
+    <p>A roof that cannot be insured affordably is a problem for your policy, your renewal and your lender. And if you ever do sell, a buyer frequently cannot obtain affordable coverage on an older roof — which means they cannot get a loan, which means they cannot buy at a price you would accept.</p>
+    <p>Roof age is the single most common reason a sale falls apart in this market, and almost nobody sees it coming.</p>
+  </div>
+
+  <p><b>What to do:</b> know your roof's installation year and ask your insurance agent each renewal what their limit is. If you are approaching it, plan the replacement on your own schedule rather than discovering it through a non-renewal notice or a buyer's inspection.</p>
+</section>
+
+<section>
+  <h2>The small things that prevent <em>the big things</em></h2>
+  <p>This is the genuinely useful part. Each of these is inexpensive and each one prevents a repair that is not.</p>
+
+  <div class="box">
+    <h3>Flush the air conditioning drain line — the most valuable item on this list</h3>
+    <p>In Florida humidity, an air handler pulls enormous amounts of water out of the air. That water leaves through a condensate drain line, and that line grows algae and clogs.</p>
+    <p>When it clogs, water backs up. Best case the safety switch shuts the system off and your resident has no cooling in August. Worst case the pan overflows into the ceiling, the drywall, the flooring, and you have a water damage claim and a mold conversation.</p>
+    <p><b>This is the single most common emergency call we handle</b>, and it is preventable with a few dollars of maintenance a couple of times a year.</p>
+  </div>
+
+  <div class="box">
+    <h3>Change the air filter on schedule</h3>
+    <p>A clogged filter makes the system work harder, run longer, freeze up and fail early. It is the cheapest item in this entire guide and the one most often neglected. Many owners now have filters delivered to the property on a schedule so it simply happens.</p>
+  </div>
+
+  <div class="box">
+    <h3>Service the system twice a year</h3>
+    <p>Spring and fall. A technician checks refrigerant, clears the drain, cleans the coil and catches a failing capacitor before it strands your resident on a Saturday in July. It also protects the manufacturer warranty, which usually requires documented maintenance.</p>
+  </div>
+
+  <div class="box">
+    <h3>Flush the water heater annually</h3>
+    <p>Hard water leaves sediment in the tank. Sediment makes the heater work harder, reduces hot water, and shortens life significantly. Flushing is quick and inexpensive and routinely adds years.</p>
+  </div>
+
+  <div class="box">
+    <h3>Clean the dryer vent</h3>
+    <p>A blocked vent is a fire risk and the reason behind most "the dryer takes three cycles" complaints. Annual cleaning is cheap.</p>
+  </div>
+
+  <div class="box">
+    <h3>Re-caulk wet areas before they leak</h3>
+    <p>Showers, tubs, sinks and exterior penetrations. Caulk fails long before anything visibly leaks, and water that gets behind tile or into a wall is a far larger repair than the caulk that would have stopped it.</p>
+  </div>
+
+  <div class="box">
+    <h3>Check the irrigation seasonally</h3>
+    <p>A broken head or a stuck valve either floods a zone or kills the lawn, and both show up as an HOA letter. Replacing dead turf costs many times what the repair would have.</p>
+  </div>
+</section>
+
+<section>
+  <h2>What to budget</h2>
+  <p>Two common approaches, and either is reasonable.</p>
+  <ul>
+    <li><b>One percent of property value per year.</b> On a $400,000 home, that is roughly $4,000 annually, or about $333 a month set aside.</li>
+    <li><b>One dollar per square foot per year.</b> On a 2,000 square foot home, roughly $2,000 annually.</li>
+  </ul>
+  <p>Newer homes consume less early and more later. Older homes are steadier but higher. Neither method is precise — the point is that the money exists before it is needed.</p>
+
+  <div class="quote">
+    <p>A reserve is not really about fixing a water heater. It is about never being forced into a decision you would not otherwise make because the money isn't there.</p>
+  </div>
+
+  <p>The owners who struggle are rarely the ones with old equipment. They are the ones with no reserve when the old equipment finally goes.</p>
+</section>
+
+<section>
+  <h2>A simple annual rhythm</h2>
+  <div class="tscroll">
+  <table>
+    <thead><tr><th>When</th><th>What</th></tr></thead>
+    <tbody>
+      <tr><td><b>Spring</b></td><td>A/C service, drain line flush, check irrigation, inspect caulk and exterior</td></tr>
+      <tr><td><b>Summer</b></td><td>Mid-season filter check; watch for condensate issues during peak humidity</td></tr>
+      <tr><td><b>Fall</b></td><td>Second A/C service and drain flush, water heater flush, dryer vent cleaning</td></tr>
+      <tr><td><b>Winter</b></td><td>Review equipment ages, confirm roof age against insurer limits, plan next year's budget</td></tr>
+      <tr><td><b>Every renewal</b></td><td>Ask your insurance agent about roof age limits before the policy renews, not after</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <h2>The short list worth keeping</h2>
+  <ul>
+    <li><b>Know three dates:</b> the age of your air conditioner, your water heater and your roof. Those are the big numbers.</li>
+    <li><b>Flush the A/C drain line twice a year.</b> It is the cheapest insurance against the most common emergency in a Florida rental.</li>
+    <li><b>Ask your insurer about roof age at every renewal.</b> Coverage limits arrive long before the roof actually fails.</li>
+    <li><b>Keep a reserve.</b> One percent of value a year, or a dollar a square foot.</li>
+    <li><b>Replace on your schedule, not under pressure.</b> The same part costs far more when a resident is without cooling or a buyer is waiting.</li>
+  </ul>
+
+  <p style="margin-top:24px">If it is useful, we are glad to look at a property's equipment ages and tell you what we would plan for over the next few years. No obligation and no pitch — just the list.</p>
+  <p><b>Verandah Properties, LLC</b><br><a href="tel:4078550331">407-855-0331</a></p>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="sig">Curating Lake Nona's Finest Rental Portfolio</div>
+    <p><b>Verandah Properties, LLC</b> · Pamela Syvertson, Owner &amp; Broker · License CQ1048619 · 407-855-0331</p>
+    <p style="font-size:.84rem;color:#8C877F">Service life ranges are general guidance drawn from industry norms and our own experience in Central Florida; actual results vary by equipment, installation and use. Insurance requirements differ by carrier and change over time — confirm specifics with your own agent. General information only, not legal, insurance or tax advice.</p>
+  </div>
+</footer>
+
+</body>
+</html>
